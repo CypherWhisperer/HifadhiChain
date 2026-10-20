@@ -1,0 +1,32 @@
+{
+  "name": "hifadhi_chain",
+  "version": "1.0.0",
+  "description": "Uni Assignment 2: A minimal full-stack decentralised application (DApp) that stores one number on the Ethereum blockchain",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "node": "hardhat node",
+    "deploy:local": "hardhat ignition deploy ignition/modules/SimpleStorage.ts --network localhost"
+  },
+  "keywords": [],
+  "author": "CypherWhisperer",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "3.1.9",
+    "@nomicfoundation/hardhat-toolbox-viem": "5.0.7",
+    "@types/node": "22.20.5",
+    "hardhat": "3.20.0",
+    "solc": "0.8.28",
+    "typescript": "7.0.2",
+    "viem": "2.57.7"
+  }
+}
