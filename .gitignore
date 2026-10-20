@@ -1,5 +1,11 @@
 docs/_FOLLOW_UPS.md
 docs/_LEARNT.md
 
-node_modules
+node_modules/
 ignition/deployments/chain-31337/
+
+artifacts/
+cache/
+coverage/
+dist/
+.env
