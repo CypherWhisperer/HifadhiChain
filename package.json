@@ -11,7 +11,8 @@
     "test": "hardhat test",
     "compile": "hardhat compile",
     "node": "hardhat node",
-    "deploy:local": "hardhat ignition deploy ignition/modules/SimpleStorage.ts --network localhost"
+    "deploy:local": "hardhat ignition deploy ignition/modules/SimpleStorage.ts --network localhost",
+    "fund:local": "hardhat run scripts/fund_local_account.ts --network localhost"
   },
   "keywords": [],
   "author": "CypherWhisperer",
