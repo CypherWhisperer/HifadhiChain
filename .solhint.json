@@ -1,0 +1,8 @@
+{
+  "extends": "solhint:recommended",
+  "rules": {
+    "use-natspec": "off",
+    "gas-indexed-events": "off",
+    "func-visibility": ["warn", { "ignoreConstructors": true }]
+  }
+}
