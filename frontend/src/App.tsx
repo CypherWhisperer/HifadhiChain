@@ -1,9 +1,9 @@
 import {
+  WalletPanel,
+  StoredNumber,
   ChangeNumberForm,
   ContractInfo,
-  StatusMessage,
-  StoredNumber,
-  WalletPanel
+  StatusMessage
 } from "./components/index.ts";
 import { useWallet } from "./use_wallet.ts";
 

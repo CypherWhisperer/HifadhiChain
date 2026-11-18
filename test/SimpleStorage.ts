@@ -2,8 +2,13 @@ import assert from "node:assert/strict";
 import { describe, it } from "node:test";
 import { network } from "hardhat";
 
+// ──────────────────────────────────────────────────────────────────────────────
 // Numbers end in `n` because blockchain integers are JavaScript `BigInt` values.
+// ──────────────────────────────────────────────────────────────────────────────
 describe("SimpleStorage", async function () {
+  // ────────────────────────────────────────────────────────────────────────────
+  // Connect to a fresh, simulated local blockchain.
+  // ────────────────────────────────────────────────────────────────────────────
   const { viem } = await network.getOrCreate();
 
   it("should start with zero", async function () {
